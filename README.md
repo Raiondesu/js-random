@@ -1,2 +1,2 @@
 # random-js-stuff
-A collection of simple and lightweight randomizers for JavaScript
+Soon, there will be a collection of simple and lightweight randomizers for JavaScript
