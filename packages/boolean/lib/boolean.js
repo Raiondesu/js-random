@@ -2,6 +2,13 @@
 
 module.exports = boolean;
 
-function boolean() {
-  return Math.random() > 0.499 ? true : false;
+/**
+ * Generates a random boolean with given probability
+ *
+ * @param {number} truthProbability a probability of getting `true`, from 0 to 1
+ */
+function boolean(truthProbability) {
+  truthProbability = typeof truthProbability !== 'number' ? 0.499 : truthProbability;
+
+  return Math.random() > truthProbability;
 }
