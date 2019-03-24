@@ -1,6 +1,6 @@
 {
   "name": "boolean",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple and lightweight boolean randomizer for JavaScript (TypeScript friendly)",
   "keywords": [
     "js",
