@@ -21,7 +21,7 @@
     "monorepo"
   ],
   "author": "Raiondesu <a.raiondesu@gmail.com>",
-  "homepage": "https://github.com/Raiondesu/random-something/tree/master/packages/number#readme",
+  "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
   "license": "  MIT",
   "main": "lib/boolean.js",
   "directories": {
@@ -33,13 +33,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raiondesu/random-something.git"
+    "url": "git+https://github.com/Raiondesu/js-random.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/Raiondesu/random-something/issues"
+    "url": "https://github.com/Raiondesu/js-random/issues"
   },
   "publishConfig": {
     "access": "public"

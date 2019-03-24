@@ -1,5 +1,5 @@
 {
-  "name": "@random/all",
+  "name": "@js-random/all",
   "version": "0.0.1",
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raiondesu/random-something.git"
+    "url": "git+https://github.com/Raiondesu/js-random.git"
   },
   "keywords": [
     "js",
@@ -32,9 +32,9 @@
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Raiondesu/random-something/issues"
+    "url": "https://github.com/Raiondesu/js-random/issues"
   },
-  "homepage": "https://github.com/Raiondesu/random-something#readme",
+  "homepage": "https://github.com/Raiondesu/js-random#readme",
   "devDependencies": {
     "lerna": "^3.13.1"
   },
