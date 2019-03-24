@@ -10,6 +10,24 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "keywords": [
+    "js",
+    "ts",
+    "typescript",
+    "javascript",
+    "string",
+    "number",
+    "boolean",
+    "array",
+    "random",
+    "simple",
+    "lightweight",
+    "es5",
+    "JSON",
+    "definetly-typed",
+    "modular",
+    "monorepo"
+  ],
   "files": [
     "lib"
   ],
@@ -22,5 +40,8 @@
   },
   "bugs": {
     "url": "https://github.com/Raiondesu/random-something/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

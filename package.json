@@ -4,7 +4,8 @@
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lerna": "lerna"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,8 @@
   "homepage": "https://github.com/Raiondesu/random-something#readme",
   "devDependencies": {
     "lerna": "^3.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

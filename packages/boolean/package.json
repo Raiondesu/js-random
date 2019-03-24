@@ -40,5 +40,8 @@
   },
   "bugs": {
     "url": "https://github.com/Raiondesu/random-something/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
