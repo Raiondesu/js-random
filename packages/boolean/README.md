@@ -2,6 +2,12 @@
 
 > A simple and lightweight boolean randomizer for JavaScript (TypeScript friendly)
 
+## Installation
+
+```
+npm i -S @js-random/boolean
+```
+
 ## Usage
 
 ```js

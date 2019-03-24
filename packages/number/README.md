@@ -2,6 +2,12 @@
 
 > A simple and lightweight number randomizer for JavaScript (TypeScript friendly)
 
+## Installation
+
+```
+npm i -S @js-random/number
+```
+
 ## Usage
 
 ```js
