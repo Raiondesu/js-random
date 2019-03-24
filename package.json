@@ -1,0 +1,37 @@
+{
+  "name": "@random/all",
+  "version": "0.0.0",
+  "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiondesu/random-something.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "typescript",
+    "javascript",
+    "string",
+    "number",
+    "boolean",
+    "array",
+    "random",
+    "simple",
+    "lightweight",
+    "es5",
+    "JSON",
+    "definetly-typed",
+    "modular",
+    "monorepo"
+  ],
+  "author": "Raiondesu <a.raiondesu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raiondesu/random-something/issues"
+  },
+  "homepage": "https://github.com/Raiondesu/random-something#readme"
+}
