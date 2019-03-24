@@ -27,7 +27,8 @@
     "JSON",
     "definetly-typed",
     "modular",
-    "monorepo"
+    "monorepo",
+    "micropackage"
   ],
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "license": "MIT",

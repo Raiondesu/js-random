@@ -26,7 +26,8 @@
     "JSON",
     "definetly-typed",
     "modular",
-    "monorepo"
+    "monorepo",
+    "micropackage"
   ],
   "files": [
     "lib"

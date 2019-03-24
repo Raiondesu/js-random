@@ -18,7 +18,8 @@
     "JSON",
     "definetly-typed",
     "modular",
-    "monorepo"
+    "monorepo",
+    "micropackage"
   ],
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
