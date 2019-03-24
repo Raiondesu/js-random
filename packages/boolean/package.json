@@ -21,7 +21,7 @@
     "monorepo"
   ],
   "author": "Raiondesu <a.raiondesu@gmail.com>",
-  "homepage": "https://github.com/Raiondesu/random-something#readme",
+  "homepage": "https://github.com/Raiondesu/random-something/tree/master/packages/number#readme",
   "license": "  MIT",
   "main": "lib/boolean.js",
   "directories": {
