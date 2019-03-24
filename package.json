@@ -1,6 +1,6 @@
 {
   "name": "@js-random/all",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "main": "index.js",
   "scripts": {
