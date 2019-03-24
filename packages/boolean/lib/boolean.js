@@ -3,5 +3,5 @@
 module.exports = boolean;
 
 function boolean() {
-    // TODO
+  return Math.random() > 0.499 ? true : false;
 }
