@@ -4,7 +4,7 @@
 
 ## Usage
 
-```
+```js
 var randomBoolean = require('boolean');
 
 var boolean = randomBoolean(); // `true` or `false`
