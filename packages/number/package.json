@@ -1,6 +1,6 @@
 {
   "name": "@js-random/number",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and lightweight number randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
