@@ -1,11 +1,13 @@
-# `boolean`
+# `@random/boolean`
 
-> TODO: description
+> A simple and lightweight boolean randomizer for JavaScript (TypeScript friendly)
 
 ## Usage
 
 ```
-const boolean = require('boolean');
+var randomBoolean = require('boolean');
 
-// TODO: DEMONSTRATE API
+var boolean = randomBoolean(); // `true` or `false`
+
+var probablyTrue = randomBoolean(0.99); // 99% chance of getting `true`
 ```
