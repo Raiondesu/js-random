@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/Raiondesu/random-something/issues"
   },
-  "homepage": "https://github.com/Raiondesu/random-something#readme"
+  "homepage": "https://github.com/Raiondesu/random-something#readme",
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
 }
