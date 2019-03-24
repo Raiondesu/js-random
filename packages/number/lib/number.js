@@ -10,8 +10,8 @@ module.exports = number;
  * @returns {number}
  */
 function number(min, max) {
-  min = min || 0;
-  max = max || 100;
+  min = typeof min === 'number' ? min : 0;
+  max = typeof max === 'number' ? max : 100;
 
   return Math.floor(Math.random() * (max - min) + min);
 }
