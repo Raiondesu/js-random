@@ -7,15 +7,6 @@
   "license": "MIT",
   "main": "index.js",
   "unpkg": "unpkg/index.js",
-  "directories": {
-    "lib": "lib",
-    "types": "types",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib",
-    "index.ts"
-  ],
   "types": "types",
   "typings": "types",
   "keywords": [
