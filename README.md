@@ -6,6 +6,7 @@
 
 - [`@js-random/number`](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme)
 - [`@js-random/boolean`](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme)
+- [`@js-random/date`](https://github.com/Raiondesu/js-random/tree/master/packages/date#readme)
 
 ## Installation and usage
 
