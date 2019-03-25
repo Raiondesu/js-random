@@ -53,5 +53,8 @@
   },
   "devDependencies": {
     "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@js-random/number": "0.0.9"
   }
 }
