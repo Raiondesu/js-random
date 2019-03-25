@@ -10,5 +10,6 @@
 **/.awcache/**
 **/.rpt2_cache/**
 **/*.js
+**/*.mjs
 **/*.map
 **/*.d.ts
