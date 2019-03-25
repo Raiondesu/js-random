@@ -6,6 +6,7 @@
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/global#readme",
   "license": "MIT",
   "main": "index.js",
+  "unpkg": "index.js",
   "directories": {
     "lib": "lib",
     "types": "types",
