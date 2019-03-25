@@ -1,11 +1,5 @@
-# `all`
+# @js-random/all
 
-> TODO: description
+> A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)
 
-## Usage
-
-```
-const all = require('all');
-
-// TODO: DEMONSTRATE API
-```
+For full readme see [the root](https://github.com/Raiondesu/js-random#readme).
