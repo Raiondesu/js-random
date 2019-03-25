@@ -1,11 +1,11 @@
 {
   "extends": "../../tsconfig.json",
-  "compilerOptions": {
-    "outDir": "./",
-    "declaration": true,
-    "declarationDir": "./types",
-  },
+  "compilerOptions": {},
   "include": [
-    "./"
+    "./index.ts",
+    "./number.ts",
+    "./string.ts",
+    "./boolean.ts",
+    "./date.ts",
   ]
 }
