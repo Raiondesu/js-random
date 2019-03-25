@@ -5,6 +5,7 @@
   "scripts": {
     "test": "test",
     "lerna": "lerna",
+    "build": "lerna run build",
     "bootstrap": "lerna bootstrap --hoist --nohoist=@js-random/* --force-local",
     "publish": "lerna publish"
   },
