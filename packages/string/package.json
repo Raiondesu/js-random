@@ -1,6 +1,6 @@
 {
   "name": "@js-random/string",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A simple and lightweight string randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/string#readme",
@@ -46,6 +46,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@js-random/number": "^0.0.6"
+    "@js-random/number": "^0.0.8"
   }
 }

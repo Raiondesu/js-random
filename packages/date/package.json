@@ -1,6 +1,6 @@
 {
   "name": "@js-random/date",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A simple and lightweight date randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/date#readme",
@@ -43,7 +43,7 @@
     "url": "https://github.com/Raiondesu/random-something/issues"
   },
   "dependencies": {
-    "@js-random/number": "^0.0.6"
+    "@js-random/number": "^0.0.8"
   },
   "publishConfig": {
     "access": "public"
