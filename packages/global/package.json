@@ -1,0 +1,58 @@
+{
+  "name": "@js-random/global",
+  "version": "0.0.9",
+  "description": "A collection of simple and lightweight randomizers for JavaScript integrated into the native API (TypeScript friendly)",
+  "author": "Raiondesu <a.raiondesu@gmail.com>",
+  "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/global#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "types": "types",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "index.ts"
+  ],
+  "types": "types",
+  "typings": "types",
+  "keywords": [
+    "js",
+    "ts",
+    "typescript",
+    "javascript",
+    "string",
+    "number",
+    "boolean",
+    "array",
+    "random",
+    "simple",
+    "lightweight",
+    "es5",
+    "JSON",
+    "definetly-typed",
+    "modular",
+    "monorepo",
+    "micropackage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiondesu/random-something.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Raiondesu/random-something/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@js-random/boolean": "0.0.9",
+    "@js-random/date": "0.0.9",
+    "@js-random/number": "0.0.9",
+    "@js-random/string": "0.0.9"
+  }
+}
