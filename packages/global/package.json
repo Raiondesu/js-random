@@ -41,7 +41,8 @@
     "url": "git+https://github.com/Raiondesu/random-something.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc -p ./tsconfig.json",
+    "preversion": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/Raiondesu/random-something/issues"
