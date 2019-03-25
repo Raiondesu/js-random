@@ -4,7 +4,9 @@
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "scripts": {
     "test": "test",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap --hoist --nohoist=@js-random/* --force-local",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
