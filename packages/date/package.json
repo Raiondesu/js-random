@@ -11,6 +11,8 @@
     "types": "types",
     "test": "__tests__"
   },
+  "types": "types",
+  "typings": "types",
   "keywords": [
     "js",
     "ts",
