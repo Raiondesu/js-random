@@ -44,5 +44,8 @@
   },
   "dependencies": {
     "@js-random/number": "^0.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
