@@ -1,4 +1,4 @@
-import './number';
-import './string';
-import './boolean';
-import './date';
+import '@js-random/number/global';
+import '@js-random/string/global';
+import '@js-random/boolean/global';
+import '@js-random/date/global';
