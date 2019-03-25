@@ -2,7 +2,6 @@
   "name": "@js-random/all",
   "version": "0.0.7",
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
-  "main": "index.js",
   "scripts": {
     "test": "test",
     "lerna": "lerna"
@@ -38,8 +37,5 @@
   "homepage": "https://github.com/Raiondesu/js-random#readme",
   "devDependencies": {
     "lerna": "^3.13.1"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
