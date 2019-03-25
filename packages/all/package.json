@@ -6,13 +6,16 @@
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/all#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "module": "module/index.js",
   "directories": {
     "lib": "lib",
     "types": "types",
+    "module": "module",
     "test": "__tests__"
   },
   "files": [
     "lib",
+    "module",
     "index.ts"
   ],
   "types": "types",

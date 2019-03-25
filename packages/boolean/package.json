@@ -6,9 +6,11 @@
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
   "license": "  MIT",
   "main": "lib/index.js",
+  "module": "module/index.js",
   "directories": {
     "lib": "lib",
     "types": "types",
+    "module": "module",
     "test": "__tests__"
   },
   "types": "types",
@@ -34,6 +36,7 @@
   ],
   "files": [
     "lib",
+    "module",
     "index.ts",
     "global.ts"
   ],
