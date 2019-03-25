@@ -1,0 +1,48 @@
+{
+  "name": "@js-random/date",
+  "version": "0.0.3",
+  "description": "A simple and lightweight date randomizer for JavaScript (TypeScript friendly)",
+  "author": "Raiondesu <a.raiondesu@gmail.com>",
+  "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/date#readme",
+  "license": "MIT",
+  "main": "lib/date.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "js",
+    "ts",
+    "typescript",
+    "javascript",
+    "string",
+    "number",
+    "boolean",
+    "array",
+    "random",
+    "simple",
+    "lightweight",
+    "es5",
+    "JSON",
+    "definetly-typed",
+    "modular",
+    "monorepo",
+    "micropackage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiondesu/random-something.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Raiondesu/random-something/issues"
+  },
+  "dependencies": {
+    "@js-random/number": "0.0.3"
+  }
+}
