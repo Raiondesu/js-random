@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/global#readme",
   "license": "MIT",
   "main": "index.js",
-  "unpkg": "index.js",
+  "unpkg": "unpkg/index.js",
   "directories": {
     "lib": "lib",
     "types": "types",
@@ -42,7 +42,9 @@
     "url": "git+https://github.com/Raiondesu/random-something.git"
   },
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
+    "build:cjs": "tsc -p ./tsconfig.json",
+    "build:unpkg": "tsc -p ./tsconfig.unpkg.json",
+    "build": "npm run build:cjs && npm run build:unpkg",
     "preversion": "npm run build"
   },
   "bugs": {

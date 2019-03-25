@@ -41,7 +41,9 @@
     "url": "git+https://github.com/Raiondesu/random-something.git"
   },
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
+    "build:cjs": "tsc -p ./tsconfig.json",
+    "build:module": "tsc -p ./tsconfig.module.json",
+    "build": "npm run build:cjs && npm run build:module",
     "preversion": "npm run build"
   },
   "bugs": {
