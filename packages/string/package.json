@@ -46,6 +46,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@js-random/number": "0.0.3"
+    "@js-random/number": "^0.0.5"
   }
 }
