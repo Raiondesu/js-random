@@ -1,5 +1,5 @@
 {
-  "name": "string",
+  "name": "@js-random/string",
   "version": "0.0.4",
   "description": "A simple and lightweight string randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
