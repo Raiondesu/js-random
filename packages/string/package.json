@@ -5,14 +5,12 @@
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/string#readme",
   "license": "MIT",
-  "main": "lib/string.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
+    "types": "types",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "keywords": [
     "js",
     "ts",
@@ -32,20 +30,26 @@
     "monorepo",
     "micropackage"
   ],
+  "files": [
+    "lib",
+    "index.ts",
+    "global.ts"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raiondesu/random-something.git"
+    "url": "git+https://github.com/Raiondesu/js-random.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc -p ./tsconfig.json",
+    "preversion": "npm run build"
   },
   "bugs": {
-    "url": "https://github.com/Raiondesu/random-something/issues"
+    "url": "https://github.com/Raiondesu/js-random/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@js-random/number": "^0.0.9"
+  "devDependencies": {
+    "typescript": "^3.3.4000"
   }
 }

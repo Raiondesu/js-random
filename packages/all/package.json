@@ -5,13 +5,15 @@
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/all#readme",
   "license": "MIT",
-  "main": "lib/all.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
+    "types": "types",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.ts"
   ],
   "keywords": [
     "js",
@@ -50,5 +52,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.4000"
   }
 }

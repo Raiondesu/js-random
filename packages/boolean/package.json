@@ -2,6 +2,15 @@
   "name": "@js-random/boolean",
   "version": "0.0.9",
   "description": "A simple and lightweight boolean randomizer for JavaScript (TypeScript friendly)",
+  "author": "Raiondesu <a.raiondesu@gmail.com>",
+  "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
+  "license": "  MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "types": "types",
+    "test": "__tests__"
+  },
   "keywords": [
     "js",
     "ts",
@@ -21,28 +30,26 @@
     "monorepo",
     "micropackage"
   ],
-  "author": "Raiondesu <a.raiondesu@gmail.com>",
-  "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
-  "license": "  MIT",
-  "main": "lib/boolean.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "lib",
+    "index.ts",
+    "global.ts"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Raiondesu/js-random.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc -p ./tsconfig.json",
+    "preversion": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/Raiondesu/js-random/issues"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.4000"
   }
 }

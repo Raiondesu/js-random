@@ -1,16 +1,16 @@
-'use strict';
+import { randomNumber } from '@js-random/number';
 
-module.exports = randomDate;
-
-var randomNumber = require('@js-random/number');
+interface IDateRange {
+  from: Date;
+  to: Date;
+}
 
 /**
  * Generates random dates based on a range
  *
- * @param {{ from?: Date, to?: Date }} range
- * @returns
+ * @param { IDateRange } range
  */
-function randomDate(range) {
+export function randomDate(range?: IDateRange): Date {
   range = typeof range === 'object' ? range : { from: new Date(0), to: new Date(Number.MAX_SAFE_INTEGER) };
 
   return new Date(randomNumber(+range.from, +range.to));
