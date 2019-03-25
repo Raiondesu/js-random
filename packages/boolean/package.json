@@ -1,6 +1,6 @@
 {
   "name": "@js-random/boolean",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple and lightweight boolean randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/number#readme",
