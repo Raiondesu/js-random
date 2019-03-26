@@ -1,7 +1,8 @@
 {
   "extends": "../../tsconfig.module.json",
   "compilerOptions": {
-    "outDir": "./module"
+    "outDir": "./module",
+    "declaration": true
   },
   "include": [
     "./index.ts",

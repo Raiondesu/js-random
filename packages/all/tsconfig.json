@@ -3,7 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./lib",
-    "declarationDir": "./types",
+    "declarationDir": "./lib"
   },
   "include": [
     "./index.ts",
