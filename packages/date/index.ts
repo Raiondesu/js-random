@@ -7,9 +7,7 @@ interface IDateRange {
 
 const defaultRange: IDateRange = {
   from: new Date(0),
-  get to() {
-    return new Date((2 << 29) * randomNumber(0, 999999));
-  }
+  to: new Date((2 << 29) * randomNumber(1, 8046627))
 }
 
 /**
