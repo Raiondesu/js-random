@@ -1,6 +1,6 @@
 {
   "name": "@js-random/all",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/all#readme",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@js-random/boolean": "^0.3.1",
-    "@js-random/date": "^0.3.1",
+    "@js-random/date": "^0.3.2",
     "@js-random/number": "^0.3.1",
     "@js-random/string": "^0.3.1"
   },
