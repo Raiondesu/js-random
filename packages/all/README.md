@@ -4,10 +4,10 @@
 
 ## Packages
 
-- `@js-random/number` [repo](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme), [npm](https://www.npmjs.com/@js-random/number)
-- `@js-random/string` [repo](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme), [npm](https://www.npmjs.com/@js-random/string)
-- `@js-random/boolean` [repo](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme), [npm](https://www.npmjs.com/@js-random/boolean)
-- `@js-random/date` [repo](https://github.com/Raiondesu/js-random/tree/master/packages/date#readme), [npm](https://www.npmjs.com/@js-random/date)
+- `@js-random/number` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme), [NPM](https://www.npmjs.com/@js-random/number)
+- `@js-random/string` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme), [NPM](https://www.npmjs.com/@js-random/string)
+- `@js-random/boolean` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme), [NPM](https://www.npmjs.com/@js-random/boolean)
+- `@js-random/date` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/date#readme), [NPM](https://www.npmjs.com/@js-random/date)
 
 ## Installation
 
