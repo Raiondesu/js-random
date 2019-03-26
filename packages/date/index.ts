@@ -5,13 +5,18 @@ interface IDateRange {
   to: Date;
 }
 
+const defaultRange: IDateRange = {
+  from: new Date(0),
+  to: new Date(2 << 29)
+}
+
 /**
  * Generates random dates based on a range
  *
  * @param { IDateRange } range
  */
 export default function randomDate(range?: IDateRange): Date {
-  range = typeof range === 'object' ? range : { from: new Date(0), to: new Date(Number.MAX_SAFE_INTEGER) };
+  range = typeof range === 'object' ? range : defaultRange;
 
   return new Date(randomNumber(+range.from, +range.to));
 }
