@@ -9,3 +9,7 @@ thumbs.db
 compiled
 .awcache
 .rpt2_cache
+lib
+types
+module
+unpkg
