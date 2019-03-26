@@ -1,6 +1,6 @@
 {
   "name": "@js-random/all",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A collection of simple and lightweight randomizers for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/all#readme",
