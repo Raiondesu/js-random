@@ -1,9 +1,7 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.module.json",
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es2015",
-    "outDir": "./module",
+    "outDir": "./module"
   },
   "include": [
     "./index.ts",

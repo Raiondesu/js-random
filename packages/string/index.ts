@@ -1,4 +1,4 @@
-import { randomNumber } from '@js-random/number';
+import randomNumber from '@js-random/number';
 
 const charsPadding = 32;
 const charsAmount = 126 - 32;
@@ -29,11 +29,11 @@ interface IStringOptions {
  * @param seed (optional) a string to be used as a seed for the new random string
  * @param filter to filter the resulting string by
  */
-export function randomString(optionsOrLength?: number | IStringOptions, seed?: string, filter?: RegExp) {
+export default function randomString(optionsOrLength?: number | IStringOptions, seed?: string, filter?: RegExp) {
   let _length = defaultLength;
   let _filter = defaultFilter;
   let _seed = defaultSeed;
-  
+
   if (typeof optionsOrLength === 'object') {
     _seed = optionsOrLength.seed || defaultSeed;
     _filter = optionsOrLength.filter || defaultFilter;

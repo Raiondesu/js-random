@@ -1,8 +1,8 @@
-import { randomString } from './index';
+import randomString from './index';
 
 declare global {
   interface StringConstructor {
-    random: typeof import('./index').randomString;
+    random: typeof import('./index').default;
   }
 }
 

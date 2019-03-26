@@ -4,7 +4,7 @@
  * @param {number} min
  * @param {number} max
  */
-export function randomNumber(min?: number, max?: number): number {
+export default function randomNumber(min?: number, max?: number): number {
   min = typeof min === 'number' ? min : 0;
   max = typeof max === 'number' ? max : 100;
 

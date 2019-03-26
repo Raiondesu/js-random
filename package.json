@@ -38,6 +38,10 @@
   },
   "homepage": "https://github.com/Raiondesu/js-random#readme",
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "lerna": "^3.13.1",
+    "rollup-plugin-commonjs": "^9.2.2",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.3.4000"
   }
 }

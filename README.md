@@ -4,11 +4,11 @@
 
 ## Packages
 
+- [`@js-random/all`](https://github.com/Raiondesu/js-random/tree/master/packages/all#readme)
 - [`@js-random/number`](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme)
 - [`@js-random/string`](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme)
 - [`@js-random/boolean`](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme)
 - [`@js-random/date`](https://github.com/Raiondesu/js-random/tree/master/packages/date#readme)
-- [`@js-random/global`](https://github.com/Raiondesu/js-random/tree/master/packages/global#readme)
 
 ## Installation and usage
 

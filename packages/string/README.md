@@ -10,8 +10,22 @@ npm i -S @js-random/string
 
 ## Usage
 
+**commonjs**:
 ```js
-var randomString = require('@js-random/string');
+var randomString = require('@js-random/string').default;
+```
+
+**TS/ES6+**:
+```ts
+import randomString from '@js-random/string';
+```
+
+**`<script> tag`**:
+```html
+<script src="https://unpkg.com/@js-random/string"></script>
+```
+
+```js
 // All parameters are optional
 
 // A random 10-symbol string. Probably something like "2P*D:4[T9="
@@ -22,6 +36,49 @@ var hell_comma_wrld = randomString(4, 'Hello, World!', /[HW,erld]/);
 
 // Object-style parameter is also available:
 hell_comma_wrld = randomString({
+  length: 4,
+  seed: 'Hello, World!',
+  filter: /[HW,erld]/
+});
+```
+
+## Global version
+
+This package also has a global version, which introduces side-effects by exposing the api as `String.random()` function.
+
+### Import
+
+**commonjs**:
+```js
+require('@js-random/string/lib/global');
+```
+
+**ES6+**:
+```ts
+import '@js-random/string/module/global';
+```
+
+**TS**:
+```ts
+import '@js-random/string/module/global';
+```
+
+**`<script> tag`**
+```html
+<script src="https://unpkg.com/@js-random/string/unpkg/global"></script>
+```
+
+### Usage
+
+```js
+// A random 10-symbol string. Probably something like "2P*D:4[T9="
+var string = String.random();
+
+// Random string of length 4, with a seed of 'Hello, World!' filtered by /[HW,erld]/ for each symbol
+var hell_comma_wrld = String.random(4, 'Hello, World!', /[HW,erld]/);
+
+// Object-style parameter is also available:
+hell_comma_wrld = String.random({
   length: 4,
   seed: 'Hello, World!',
   filter: /[HW,erld]/

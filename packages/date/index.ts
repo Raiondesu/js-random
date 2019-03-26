@@ -1,4 +1,4 @@
-import { randomNumber } from '@js-random/number';
+import randomNumber from '@js-random/number';
 
 interface IDateRange {
   from: Date;
@@ -10,7 +10,7 @@ interface IDateRange {
  *
  * @param { IDateRange } range
  */
-export function randomDate(range?: IDateRange): Date {
+export default function randomDate(range?: IDateRange): Date {
   range = typeof range === 'object' ? range : { from: new Date(0), to: new Date(Number.MAX_SAFE_INTEGER) };
 
   return new Date(randomNumber(+range.from, +range.to));

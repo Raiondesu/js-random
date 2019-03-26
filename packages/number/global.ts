@@ -1,8 +1,8 @@
-import { randomNumber } from './index';
+import randomNumber from './index';
 
 declare global {
   interface NumberConstructor {
-    random: typeof import('./index').randomNumber;
+    random: typeof import('./index').default;
   }
 }
 

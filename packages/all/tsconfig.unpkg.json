@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.unpkg.json",
+  "compilerOptions": {
+    "outDir": "./unpkg"
+  },
+  "include": [
+    "./index.ts",
+    "./global.ts"
+  ]
+}

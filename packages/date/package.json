@@ -7,10 +7,12 @@
   "license": "MIT",
   "main": "lib/index.js",
   "module": "module/index.js",
+  "unpkg": "unpkg/index.js",
   "directories": {
     "lib": "lib",
     "types": "types",
     "module": "module",
+    "unpkg": "unpkg",
     "test": "__tests__"
   },
   "types": "types",
@@ -37,6 +39,7 @@
   "files": [
     "lib",
     "module",
+    "unpkg",
     "index.ts",
     "global.ts"
   ],
@@ -45,9 +48,11 @@
     "url": "git+https://github.com/Raiondesu/js-random.git"
   },
   "scripts": {
+    "build": "npm run build:cjs && npm run build:module && npm run build:unpkg",
     "build:cjs": "tsc -p ./tsconfig.json",
     "build:module": "tsc -p ./tsconfig.module.json",
-    "build": "npm run build:cjs && npm run build:module",
+    "build:unpkg": "tsc -p ./tsconfig.unpkg.json && npm run rollup",
+    "rollup": "rollup -c ../../rollup.config.js --name randomDate",
     "preversion": "npm run build"
   },
   "bugs": {
@@ -57,6 +62,10 @@
     "access": "public"
   },
   "devDependencies": {
+    "rollup": "^1.7.3",
+    "rollup-plugin-commonjs": "^9.2.2",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^3.3.4000"
   },
   "dependencies": {
