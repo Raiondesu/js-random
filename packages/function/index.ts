@@ -68,7 +68,11 @@ function flattenObject(obj: object, allowEmpty?: boolean): Array<Function> {
   return arr.filter(i => typeof i === 'function');
 }
 
-export default function randomFunction(options: Partial<IFunctionOptions> = defaultOptions) {
+export default function randomFunction(options: Partial<IFunctionOptions> | Array<Function> = defaultOptions) {
+  if (Array.isArray(options)) {
+    options = { seed: options };
+  }
+
   options.seed = options.seed || defaultOptions.seed;
 
   if (typeof options.allowEmpty !== 'boolean')
