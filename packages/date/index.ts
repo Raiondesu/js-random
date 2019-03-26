@@ -7,7 +7,7 @@ interface IDateRange {
 
 const defaultRange: IDateRange = {
   from: new Date(0),
-  to: new Date(2 << 29)
+  to: new Date((2 << 29) * 999999)
 }
 
 /**
