@@ -1,5 +1,3 @@
-import randomNumber from '@js-random/number';
-
 const charsPadding = 32;
 const charsAmount = 126 - 32;
 
@@ -48,7 +46,7 @@ export default function randomString(optionsOrLength?: number | IStringOptions, 
 
   for (let i = 0; i < _length; i++) {
     result += _seed.split('')
-      .sort(() => randomNumber(-1, 1))
+      .sort(() => Math.random() - 0.5)
       .find(char => _filter.test(char));
   }
 
