@@ -63,3 +63,12 @@ var boolean = Boolean.random(); // `true` or `false`
 
 var probablyTrue = Boolean.random(0.99); // 99% chance of getting `true`
 ```
+
+## Other packages
+
+Please, have a look at other packages from `@js-random` series:
+
+- `@js-random/all` - all the randomizers in one package - [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/all#readme), [NPM](https://www.npmjs.com/@js-random/string)
+- `@js-random/number` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme), [NPM](https://www.npmjs.com/@js-random/number)
+- `@js-random/string` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme), [NPM](https://www.npmjs.com/@js-random/string)
+- `@js-random/date` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/date#readme), [NPM](https://www.npmjs.com/@js-random/date)

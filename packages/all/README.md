@@ -4,6 +4,8 @@
 
 ## Packages
 
+Here's a list of packages that are included in this build:
+
 - `@js-random/number` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme), [NPM](https://www.npmjs.com/@js-random/number)
 - `@js-random/string` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme), [NPM](https://www.npmjs.com/@js-random/string)
 - `@js-random/boolean` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme), [NPM](https://www.npmjs.com/@js-random/boolean)
