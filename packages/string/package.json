@@ -1,6 +1,6 @@
 {
   "name": "@js-random/string",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A simple and lightweight string randomizer for JavaScript (TypeScript friendly)",
   "author": "Raiondesu <a.raiondesu@gmail.com>",
   "homepage": "https://github.com/Raiondesu/js-random/tree/master/packages/string#readme",
@@ -67,6 +67,5 @@
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^3.3.4000"
-  },
-  "dependencies": {}
+  }
 }
