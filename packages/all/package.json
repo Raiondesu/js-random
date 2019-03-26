@@ -20,8 +20,8 @@
     "module",
     "index.ts"
   ],
-  "types": "types",
-  "typings": "types",
+  "types": "lib/index.d,ts",
+  "typings": "lib/index.d.ts",
   "keywords": [
     "js",
     "ts",

@@ -15,8 +15,8 @@
     "unpkg": "unpkg",
     "test": "__tests__"
   },
-  "types": "types",
-  "typings": "types",
+  "types": "lib/index.d,ts",
+  "typings": "lib/index.d.ts",
   "keywords": [
     "js",
     "ts",
