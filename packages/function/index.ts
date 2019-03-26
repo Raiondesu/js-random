@@ -84,7 +84,7 @@ export default function randomFunction(options: Partial<IFunctionOptions> | Arra
   if (options.behaviour !== 'choose' && options.behaviour !== 'compose')
     options.behaviour = defaultOptions.behaviour;
 
-  let f: Function | undefined = undefined;
+  let f: Function;
   let functions: Function[] = flattenObject(options.seed, options.allowEmpty);
 
   if (functions.length === 0) {
@@ -92,10 +92,30 @@ export default function randomFunction(options: Partial<IFunctionOptions> | Arra
   }
 
   if (options.behaviour === 'choose') {
-    f = functions[randomNumber(0, functions.length)];
-  } else if (options.behaviour === 'compose') {
+    f = functions[randomNumber(0, functions.length - 1)];
+  } else {
+    const chanceOfCutting = Number('0.' + randomNumber(0, functions.length - 1));
+    functions = functions.filter(_ => (Math.random() - chanceOfCutting) > 0);
 
+    f = function composed(...args: any[]) {
+      const result = functions.map(func => {
+        if (args.length > 1) {
+          func(...args.slice(
+            randomNumber(0, args.length/2),
+            randomNumber(args.length/2, args.length - 1)
+          ));
+        } else {
+          func(...args);
+        }
+      });
+
+      if (result.length === 1) {
+        return result[0];
+      }
+
+      return result;
+    }
   }
 
-  return prepareExecutor(f || empty, options.throwErrors);
+  return prepareExecutor(f, options.throwErrors);
 }
