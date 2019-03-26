@@ -72,3 +72,4 @@ Please, have a look at other packages from `@js-random` series:
 - `@js-random/number` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/number#readme), [NPM](https://www.npmjs.com/@js-random/number)
 - `@js-random/boolean` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/boolean#readme), [NPM](https://www.npmjs.com/@js-random/boolean)
 - `@js-random/string` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/string#readme), [NPM](https://www.npmjs.com/@js-random/string)
+- `@js-random/function` [GitHub repo](https://github.com/Raiondesu/js-random/tree/master/packages/function#readme), [NPM](https://www.npmjs.com/@js-random/function)
