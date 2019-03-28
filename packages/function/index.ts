@@ -26,8 +26,24 @@ function empty(arg: any, ...other: any[]) {
   }
 }
 
+function removeCircular(obj: object): object {
+  // Courtesy of https://gist.github.com/zmmbreeze/9408172
+  const cache: any[] = [];
+  return JSON.parse(JSON.stringify(obj, function(_key: string, value: any) {
+      if (typeof value === 'object' && value !== null) {
+          if (cache.indexOf(value) !== -1) {
+              // Circular reference found, discard key
+              return;
+          }
+          // Store value in our collection
+          cache.push(value);
+      }
+      return value;
+  }));
+}
+
 function prepareExecutor(f: Function, throwErrors?: boolean) {
-  if (!throwErrors) {
+  if (throwErrors) {
     return (...args: any[]) => f(...args);
   }
 
@@ -40,6 +56,17 @@ function prepareExecutor(f: Function, throwErrors?: boolean) {
   }
 }
 
+function isConstructor(f) {
+  try {
+    new f();
+  } catch (err) {
+    if (err.message.indexOf('is not a constructor') >= 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
 function flattenObject(obj: object, allowEmpty?: boolean): Array<Function> {
   let arr: any[] = [];
 
@@ -47,12 +74,17 @@ function flattenObject(obj: object, allowEmpty?: boolean): Array<Function> {
     const item = obj[key];
 
     if (typeof item === 'function') {
-      arr.push(item);
+      if (!isConstructor(item)) {
+        arr.push(item);
+      }
       continue;
     }
 
     if (typeof item === 'object') {
-      arr = arr.concat(flattenObject(item, allowEmpty));
+      try {
+        arr = arr.concat(flattenObject(removeCircular(item), allowEmpty));
+      } catch (e) {}
+
       continue;
     }
 
