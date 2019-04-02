@@ -1,4 +1,4 @@
-# `@js-random/number`
+# `@js-random/number` as subtree
 
 > A simple and lightweight number randomizer for JavaScript (TypeScript friendly)
 
