@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.module.json",
+  "compilerOptions": {
+    "outDir": "./module",
+    "declaration": true
+  },
+  "include": [
+    "./index.ts",
+    "./global.ts"
+  ]
+}
