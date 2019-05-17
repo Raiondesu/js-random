@@ -38,7 +38,8 @@
   },
   "homepage": "https://github.com/Raiondesu/js-random#readme",
   "devDependencies": {
-    "lerna": "^3.13.1",
+    "@kazanexpress/frontend-commitlint": "git+https://github.com/KazanExpress/ke-frontend-commitlint.git",
+    "lerna": "^3.14.1",
     "rollup-plugin-commonjs": "^9.2.2",
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-typescript": "^1.0.1",
